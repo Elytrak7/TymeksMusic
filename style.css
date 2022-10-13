@@ -100,10 +100,27 @@ body{
 }
 #headingwords1{
     position: relative;
-    top: -15px;
+    top: -18%;
     
 }
 .audiotext{
     text-align: center;
     font-size: 125%;
 }
+#passwordparent{
+    
+    width: 23%;
+    height: 4.5%;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-family: "Franklin Gothic", "Arial Bold";
+}
+#passwordcontainer{
+    position: relative;
+    top: 20%;
+}
+

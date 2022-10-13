@@ -3,13 +3,17 @@
 <head>
     <title>Login page</title>
     <script src="scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<form>
+<body style="display: flex;align-items: center;justify-content: center;">
+    <div id="passwordparent">
+    <div id="passwordcontainer"> 
+    <form>
     <label for="pswd"> Enter your password: </label>
     <input type="password" id="pswd">
     <input type="button" value="Submit" onclick="checkPswd();" />
-</form>
-
+    </form>
+    </div>
+    </div> 
 </body>
 </html>
