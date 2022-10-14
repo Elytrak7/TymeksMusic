@@ -56,11 +56,12 @@ body{
     
 }
 #textbox{
-    width: 70.5%;
-    height: 100%;
+    width: 67%;
+    height: 88%;
     background-color: black;
     font-family: "Franklin Gothic", "Arial Bold";
     font-size: 150%;
+    padding: 1.5%;
 
 }
 #img{
@@ -136,5 +137,8 @@ body{
     position: relative;
     width: auto;
     height: auto;   
+}
+#space{
+    height: 83%;
 }
 
