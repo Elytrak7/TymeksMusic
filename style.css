@@ -23,7 +23,9 @@ body{
 }
 #header1{
     background-color: black;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 #headercontainer{
     background-image: url('images/pattern background.jpg');
@@ -32,7 +34,7 @@ body{
     padding: 0.5%;
     padding-bottom: 1%;
     width: auto;
-    height: 10%;    
+    height: 10%;  
 }
 #container1{
     height: auto;
@@ -100,27 +102,39 @@ body{
 }
 #headingwords1{
     position: relative;
-    top: -18%;
     
 }
 .audiotext{
     text-align: center;
     font-size: 125%;
 }
-#passwordparent{
-    
-    width: 23%;
-    height: 4.5%;
-    background-color: white;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    font-family: "Franklin Gothic", "Arial Bold";
-}
+
 #passwordcontainer{
     position: relative;
-    top: 20%;
+    width: calc(100vh - 29%);
+    height: calc(100vh - 97%);
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-family: "Franklin Gothic", "Arial Bold";
+
+}
+#submitpassword{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+#inputpassword{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+#passwordtext{
+    position: relative;
+    width: auto;
+    height: auto;   
 }
 

@@ -6,14 +6,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body style="display: flex;align-items: center;justify-content: center;">
-    <div id="passwordparent">
     <div id="passwordcontainer"> 
-    <form>
-    <label for="pswd"> Enter your password: </label>
-    <input type="password" id="pswd">
-    <input type="button" value="Submit" onclick="checkPswd();" />
-    </form>
+    <label id="passwordtext" for="pswd"> Enter your password: </label>
+    <input type="password" id="pswd" id="inputpassword">
+    <input type="button" value="Submit" onclick="checkPswd();" id="submitpassword"/>
     </div>
-    </div> 
 </body>
 </html>
